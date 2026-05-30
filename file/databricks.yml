@@ -1,0 +1,10 @@
+bundle:
+  name: retail_project
+
+targets:
+  dev:
+    workspace:
+      host: https://dbc-fde52c50-f44d.cloud.databricks.com
+
+resources:
+  jobs: ${resources.jobs}
